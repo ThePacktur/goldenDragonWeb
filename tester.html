@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden Dragon - Authentic Chinese Cuisine</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Golden <span>Dragon</span></div>
+                <ul class="nav-links">
+                    <li><a href="#home" data-translate>Home</a></li>
+                    <li><a href="#menu" data-translate>Menu</a></li>
+                    <li><a href="#about" data-translate>About</a></li>
+                    <li><a href="#contact" data-translate>Contact</a></li>
+                </ul>
+                <div class="language-selector">
+                    <select id="languageSelect">
+                        <option value="en">English</option>
+                        <option value="es">Español</option>
+                        <option value="zh">中文</option>
+                        <option value="fr">Français</option>
+                    </select>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 data-translate>Authentic Chinese Cuisine</h1>
+            <p data-translate>Experience the rich flavors and traditions of China with our carefully crafted dishes made from the freshest ingredients.</p>
+            <a href="#menu" class="btn" data-translate>View Our Menu</a>
+        </div>
+    </section>
+    
+    <!-- Menu Section -->
+    <section class="menu" id="menu">
+        <div class="container">
+            <div class="section-title">
+                <h2 data-translate>Our Specialties</h2>
+                <p data-translate>Discover our most popular dishes loved by customers</p>
+            </div>
+            
+            <div class="menu-items">
+                <!-- Menu Item 1 -->
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1563245372-f21724e3856d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Peking Duck">
+                    <div class="menu-item-content">
+                        <h3 data-translate>Peking Duck</h3>
+                        <p data-translate>Crispy roasted duck served with thin pancakes, hoisin sauce, and scallions.</p>
+                        <div class="price">$28.99</div>
+                    </div>
+                </div>
+                
+                <!-- Menu Item 2 -->
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1585032226651-759b368d7246?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Kung Pao Chicken">
+                    <div class="menu-item-content">
+                        <h3 data-translate>Kung Pao Chicken</h3>
+                        <p data-translate>Spicy stir-fried chicken with peanuts, vegetables, and chili peppers.</p>
+                        <div class="price">$16.99</div>
+                    </div>
+                </div>
+                
+                <!-- Menu Item 3 -->
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1563245375-3aaea6f7f8c5?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Xiao Long Bao">
+                    <div class="menu-item-content">
+                        <h3 data-translate>Xiao Long Bao</h3>
+                        <p data-translate>Steamed soup dumplings filled with pork and savory broth.</p>
+                        <div class="price">$12.99 (6 pieces)</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 data-translate>Our Story</h2>
+                    <p data-translate>Founded in 1995, Golden Dragon has been serving authentic Chinese cuisine for over 25 years. Our chef, Master Li, brings decades of experience from the Sichuan province of China.</p>
+                    <p data-translate>We use only the freshest ingredients and traditional cooking techniques to bring you the most authentic flavors. Many of our recipes have been passed down through generations.</p>
+                    <a href="#contact" class="btn" data-translate>Visit Us</a>
+                </div>
+                <div class="about-img">
+                    <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Restaurant Interior">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2 data-translate>Contact Us</h2>
+                <p data-translate>We'd love to hear from you</p>
+            </div>
+            
+            <div class="contact-info">
+                <div class="contact-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3 data-translate>Address</h3>
+                    <p>123 Dragon Street<br>Chinatown, NY 10001</p>
+                </div>
+                
+                <div class="contact-card">
+                    <i class="fas fa-phone-alt"></i>
+                    <h3 data-translate>Phone</h3>
+                    <p>(212) 555-8888</p>
+                    <p data-translate>Reservations recommended</p>
+                </div>
+                
+                <div class="contact-card">
+                    <i class="fas fa-clock"></i>
+                    <h3 data-translate>Hours</h3>
+                    <p data-translate>Monday - Friday: 11am - 10pm</p>
+                    <p data-translate>Saturday - Sunday: 11am - 11pm</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Golden Dragon</h3>
+                    <p data-translate>Authentic Chinese cuisine served with passion and tradition since 1995.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3 data-translate>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home" data-translate>Home</a></li>
+                        <li><a href="#menu" data-translate>Menu</a></li>
+                        <li><a href="#about" data-translate>About Us</a></li>
+                        <li><a href="#contact" data-translate>Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3 data-translate>Newsletter</h3>
+                    <p data-translate>Subscribe to receive updates and special offers.</p>
+                    <form>
+                        <input type="email" placeholder="Your Email" required>
+                        <button type="submit" class="btn" data-translate>Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; <span data-translate>2025 Golden Dragon Chinese Restaurant. All Rights Reserved.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-functions.js"></script>
+    <script src="scripts/firebase-config.js"></script>
+    <script src="scripts/traslation.js"></script>
+</body>
+</html>
